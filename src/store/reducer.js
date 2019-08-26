@@ -1,8 +1,8 @@
 let defaultState = {
     inputValue: '',
     list: ['完成react的学习',
-    '完成redux的学习',
-    '完成redux-saga的学习']
+        '完成redux的学习',
+        '完成redux-saga的学习']
 };
 export default (state = defaultState, action) => {
     if (action.type === 'changeInput') {
